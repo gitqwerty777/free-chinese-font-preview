@@ -1,15 +1,5 @@
 <template>
   <div id="app">
-    <b-navbar type="is-success">
-      <template #brand>
-        <b-navbar-item> 免費繁體中文字型一覽 </b-navbar-item>
-      </template>
-      <template #start>
-        <b-navbar-item href="#"> 關於 </b-navbar-item>
-      </template>
-
-      <template #end> </template>
-    </b-navbar>
     <FontPreviews id="content" />
   </div>
 </template>
