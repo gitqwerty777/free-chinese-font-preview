@@ -33,7 +33,7 @@
               >
               </b-slider>
             </b-field>
-            <b-field label="字體大小" expanded style="min-width: 100px">
+            <b-field label="字體大小" expanded style="min-width: 150px">
               <b-slider
                 v-model="fontSize"
                 size="is-medium"

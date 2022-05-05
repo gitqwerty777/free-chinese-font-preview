@@ -49,7 +49,7 @@ export default {
   methods: {
     openLink() {
       window.open(this.link, "_blank");
-      this.$buefy.notification.open("Clicked!!");
+      //this.$buefy.notification.open("Clicked!!");
     },
     openDescription() {
       //this.$buefy.notification.open("Clicked!!");
