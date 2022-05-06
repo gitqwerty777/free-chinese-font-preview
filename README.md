@@ -1,24 +1,5 @@
-# free-chinese-font-preview
+# 免費繁體中文字型一覽
 
-## Project setup
-```
-yarn install
-```
+收集**免費**的**繁體中文**字型並提供預覽
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<http://gitqwerty777.github.io/free-chinese-font-preview>
