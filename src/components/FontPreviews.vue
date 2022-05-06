@@ -2,8 +2,10 @@
   <div class="font-previews">
     <b-navbar type="is-success" fixed-top>
       <template #brand>
-        <!--標題大小-->
-        <b-navbar-item href="/" style="font-size: 2em"
+        <b-navbar-item
+          tag="router-link"
+          :to="{ path: '/' }"
+          style="font-size: 2em"
           >免費繁體中文字型一覽</b-navbar-item
         >
       </template>
@@ -44,7 +46,7 @@
             </b-field>
           </b-field>
         </section>
-        <b-navbar-item href="/about" :to="{ path: '/about' }">
+        <b-navbar-item tag="router-link" :to="{ path: '/about' }">
           關於
         </b-navbar-item>
       </template>
@@ -229,7 +231,11 @@ export default {
   background-color: green;*/
 }
 .font-previews {
-  margin-top: 150px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 100px 100px 50px 100px;
 }
 
 @font-face {
