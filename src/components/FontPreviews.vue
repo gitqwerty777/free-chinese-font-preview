@@ -10,7 +10,6 @@
         >
       </template>
       <template #start>
-        <!-- TODO: 實作關於頁面 -->
         <section class="input-field">
           <b-field grouped group-multiline>
             <b-field label="預覽文字" expanded>
@@ -23,7 +22,6 @@
                 </option>
               </b-select>
             </b-field>
-            <!--TODO: 字重長度 -->
             <b-field label="字重" expanded style="min-width: 200px">
               <b-slider
                 v-model="fontWeight"

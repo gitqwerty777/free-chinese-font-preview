@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@iconify/vue2': ^1.2.1
   '@vue/cli-plugin-babel': ~4.5.0
   '@vue/cli-plugin-eslint': ~4.5.0
   '@vue/cli-service': ~4.5.0
@@ -20,6 +21,7 @@ dependencies:
   vue-router: 3.5.3
 
 devDependencies:
+  '@iconify/vue2': 1.2.1_vue@2.6.14
   '@vue/cli-plugin-babel': 4.5.17_35f0b1f30f9cd58cccd59daefb36f3da
   '@vue/cli-plugin-eslint': 4.5.17_66e28910525a36c0b6c9f5a4d333c57c
   '@vue/cli-service': 4.5.17_vue-template-compiler@2.6.14
@@ -1247,6 +1249,14 @@ packages:
     deprecated: This version has been deprecated and is no longer supported or maintained
     dependencies:
       '@hapi/hoek': 8.5.1
+    dev: true
+
+  /@iconify/vue2/1.2.1_vue@2.6.14:
+    resolution: {integrity: sha512-aJy/PLs0mqKF5wv6vMc+Pf2+v4TkrlLP15tTU15Tbyw5OSnIGZa64eCkEEJnag2h8+XIf/mx6MOf7m2DE58pHw==}
+    peerDependencies:
+      vue: 2.x
+    dependencies:
+      vue: 2.6.14
     dev: true
 
   /@intervolga/optimize-cssnano-plugin/1.0.6_webpack@4.46.0:

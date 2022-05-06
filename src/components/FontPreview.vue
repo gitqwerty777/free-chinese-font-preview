@@ -28,7 +28,6 @@
         </b-tooltip>
       </template>
       <span :style="{ fontSize: fontsize + 'px' }">{{ text }}</span>
-      <!--<b-button type="is-primary" @click="download">下載</b-button>-->
     </b-message>
   </div>
 </template>
@@ -49,10 +48,8 @@ export default {
   methods: {
     openLink() {
       window.open(this.link, "_blank");
-      //this.$buefy.notification.open("Clicked!!");
     },
     openDescription() {
-      //this.$buefy.notification.open("Clicked!!");
       this.isDescriptionActive = true;
     },
     download() {
@@ -68,7 +65,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<!-- TODO: 補齊FONT FACE，測試沒安裝字型時的效果-->
 <style scoped>
 .font-preview {
   text-align: left;
